@@ -69,8 +69,10 @@ cost_coef = linspace(0.1,0.1*K,K); %下载每单位数据需要花费的开销�
 R = 0.05; %data rate of backbone，单位：Gbps
 xi = cost_coef' .* size_se;
 cost_th = 2;
-
+B_list = [1,2,3,4,5];
 T = 30;
+for i=1:5
+    B = B_list(1,i);
 %% 初始化
 time = datetime;
 version = [num2str(time.Year) num2str(time.Month) num2str(time.Day) num2str(time.Hour)];
@@ -140,9 +142,8 @@ delay_uplink_T_instant_B = zeros(1,5);
 cach_cost_T_B = zeros(1,5);
 cach_cost_T_instant_B = zeros(1,5);
 cach_cost_T_block_B = zeros(1,5);
-B_list = [1,2,3,4,5];
-for i=1:5
-    B = B_list(1,i);
+
+
 for t = 1:T
     %% 当前states (所有方案统一使用的)
     req_type_ind = req_type_all_T(:,t); % B0*1
