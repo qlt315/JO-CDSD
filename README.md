@@ -1,4 +1,4 @@
-# Simulation Code of our paper ''Joint Optimization of Base Station Clustering and Service Caching in User-Centric MEC''
+# Simulation Code of our paper in IEE TMC: ''Joint Optimization of Base Station Clustering and Service Caching in User-Centric MEC''
 **Abstract**: Edge service caching can effectively reduce the delay or bandwidth overhead for acquiring and initializing applications.
 To address single-base station (BS) transmission limitation and serious edge effect in traditional cellular-based edge service caching
 networks, in this paper, we proposed a novel user-centric edge service caching framework where each user is jointly provided with edge
@@ -12,8 +12,6 @@ proposed joint optimization algorithm outperforms other algorithms and can effec
 and caching cost by at most 53.12%.
 
 Running Environment: Matlab R2021b
-
-(**This paper is currently under review**)
 
 ## Single-User Scenario
 
@@ -30,3 +28,4 @@ Running Environment: Matlab R2021b
 **main_cluster_size.m** : Performance comparison under different base station cluster sizes. 
 
 **main_cost_th.m** : Performance comparison under different caching cost thresholds.
+
