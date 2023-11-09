@@ -13,6 +13,8 @@ and caching cost by at most 53.12%.
 
 Running Environment: Matlab R2021b
 
+This paper is available on https://ieeexplore.ieee.org/document/10275092
+
 ## Single-User Scenario
 
 **main_time_slot.m** ：Performance comparison between the proposed algorithm and several comparison algorithms at different time slots.
@@ -28,4 +30,5 @@ Running Environment: Matlab R2021b
 **main_cluster_size.m** : Performance comparison under different base station cluster sizes. 
 
 **main_cost_th.m** : Performance comparison under different caching cost thresholds.
+
 
