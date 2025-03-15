@@ -1,6 +1,6 @@
 # JO-CDSD
 
-Simulation Code of our paper in IEEE TMC: ''Joint Optimization of Base Station Clustering and Service Caching in User-Centric MEC''
+Evaluation Code of our paper in IEEE TMC: ''Joint Optimization of Base Station Clustering and Service Caching in User-Centric MEC''
 **Abstract**: Edge service caching can effectively reduce the delay or bandwidth overhead for acquiring and initializing applications.
 To address single-base station (BS) transmission limitation and serious edge effect in traditional cellular-based edge service caching
 networks, in this paper, we proposed a novel user-centric edge service caching framework where each user is jointly provided with edge
